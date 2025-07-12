@@ -25,6 +25,7 @@ public class OverRegen extends JavaPlugin {
 
         this.getServer().getPluginManager().registerEvents(new BlockRegenListener(configFile, blockRegenController, worldGuardController), this);
         Objects.requireNonNull(this.getCommand("overregen")).setExecutor(new OverRegenCommand(this));
+        Objects.requireNonNull(this.getCommand("overregen")).setTabCompleter(new OverRegenCommand(this));
     }
 
     @Override
