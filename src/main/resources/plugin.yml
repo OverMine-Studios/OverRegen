@@ -1,0 +1,9 @@
+main: studio.overmine.overregion.OverRegen
+name: OverRegen
+version: 1.0.0
+author: OverMine Studios
+api-version: 1.13
+commands:
+  overregen:
+    description: OverRegen Command
+    permission: overregen.command.overregen

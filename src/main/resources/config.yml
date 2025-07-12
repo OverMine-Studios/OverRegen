@@ -1,0 +1,10 @@
+block-regen-time:
+  break: "1m"
+  place: "1m"
+  explode: "1m"
+
+whitelist-region:
+  - "region-name"
+
+blacklist-block:
+  - "SHULKER_BOX"
